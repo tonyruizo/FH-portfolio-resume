@@ -1,0 +1,78 @@
+@import 'config';
+
+
+// Hero section
+.hero {
+  height: 90vh;
+  img {
+    width: 40rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .job-link {
+    color: $primary;
+  }
+}
+
+// About section
+
+.about {
+  height: 100%;
+  .area-1 {
+    border-right: 2px solid $third-color;
+    img {
+      width: 300px
+    }
+  };
+
+  hr {
+    color: $primary;
+  }
+}
+
+// Experience section
+
+.experience {
+  .job-desc {
+    list-style: square;
+  }
+
+  .job-divider {
+    width: 40%;
+  }
+
+  .key { 
+    list-style: none;
+    .diamond { 
+      color: $secondary;
+      padding-right: 10px;
+    }
+  }
+}
+
+// Contact
+
+.contact {
+  img {
+    width: 300px;
+  }
+}
+
+// Footer
+
+footer {
+  a {
+    color: $secondary;
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(86, 142, 86);
+      cursor: pointer;
+    }
+  }
+}
+
+@import 'responsive';
