@@ -4,46 +4,47 @@
       margin-top: 6rem;
     }
   }
-  
+
   .about {
     height: 100%;
-  
-      .area-1 {
-        border-right: none;
-        img {
-          display: none;
-        }
 
+    .area-1 {
+      border-right: none;
+      img {
+        display: none;
+      }
     }
   }
 
-  .experience {
+  .experience,
+  .publication {
     font-size: 0.7rem;
-    }
+  }
 
   .date {
     font-size: 0.6rem;
   }
 
-  .job-divider {
-    width: 80%;
-    margin-right: 70px;
+  .contact {
+    img {
+      align-items: center;
+      width: 100px;
+    }
   }
-
 }
 
 @media only screen and (max-width: 768px) {
- .hero {
-  img {
-    width: 20rem;
+  .hero {
+    img {
+      width: 20rem;
+    }
   }
- }
 
- .about {
-   .area-2 {
-     li {
-       font-size: 0.7rem;
-     }
-   }
- }
+  .about {
+    .area-2 {
+      li {
+        font-size: 0.7rem;
+      }
+    }
+  }
 }

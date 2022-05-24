@@ -1,5 +1,19 @@
-@import 'config';
+@import "config";
 
+body {
+  .key {
+    list-style: none;
+
+    .diamond {
+      color: $secondary;
+      padding-right: 10px;
+    }
+  }
+
+  #heading {
+    color: $primary;
+  }
+}
 
 // Hero section
 .hero {
@@ -24,9 +38,9 @@
   .area-1 {
     border-right: 2px solid $third-color;
     img {
-      width: 300px
+      width: 300px;
     }
-  };
+  }
 
   hr {
     color: $primary;
@@ -43,14 +57,6 @@
   .job-divider {
     width: 40%;
   }
-
-  .key { 
-    list-style: none;
-    .diamond { 
-      color: $secondary;
-      padding-right: 10px;
-    }
-  }
 }
 
 // Contact
@@ -59,11 +65,36 @@
   img {
     width: 300px;
   }
+
+  ul {
+    list-style: none;
+  }
+
+  .link {
+    display: flex;
+    flex-direction: row;
+    i {
+      padding-right: 20px;
+      color: $secondary;
+    }
+  }
+
+  a {
+    color: $third-color;
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(86, 142, 86);
+      cursor: pointer;
+    }
+  }
 }
 
 // Footer
 
 footer {
+  // background-color:;
+  color: $third-color;
   a {
     color: $secondary;
     text-decoration: none;
@@ -75,4 +106,4 @@ footer {
   }
 }
 
-@import 'responsive';
+@import "responsive";
