@@ -109,17 +109,16 @@ body {
 // Footer
 
 footer {
-  // background-color:;
-  color: $third-color;
-
+  .icon1 {
+    color: $secondary;
+  }
   .icon2 {
     color: rgb(68, 68, 216);
   }
 
   a {
-    color: $secondary;
+    color: gray;
     text-decoration: none;
-
     &:hover {
       color: rgb(86, 142, 86);
       cursor: pointer;
