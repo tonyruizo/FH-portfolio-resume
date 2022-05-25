@@ -12,6 +12,7 @@ body {
 
   #heading {
     color: $primary;
+    font-size: 2rem;
   }
 }
 
@@ -62,6 +63,10 @@ body {
 // Contact
 
 .contact {
+  svg {
+    width: 400px;
+    padding-right: 50px;
+  }
   img {
     width: 300px;
   }
@@ -71,20 +76,31 @@ body {
   }
 
   .link {
+    @include centerIt;
     display: flex;
     flex-direction: row;
     i {
       padding-right: 20px;
-      color: $secondary;
+    }
+
+    .icon1 {
+      color: rgb(177, 68, 180);
+    }
+    .icon2 {
+      color: rgb(224, 29, 29);
+    }
+    .icon3 {
+      color: rgb(68, 68, 216);
     }
   }
 
   a {
-    color: $third-color;
+    color: black;
     text-decoration: none;
 
     &:hover {
       color: rgb(86, 142, 86);
+      // color: rgb(210, 55, 55);
       cursor: pointer;
     }
   }
@@ -95,6 +111,11 @@ body {
 footer {
   // background-color:;
   color: $third-color;
+
+  .icon2 {
+    color: rgb(68, 68, 216);
+  }
+
   a {
     color: $secondary;
     text-decoration: none;
