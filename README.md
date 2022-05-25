@@ -19,4 +19,4 @@ A Simple resume portfolio to showcase about, experience, education and contact s
 
 ## Copyright and License
 
-Copyright 2022 tonyruizo. Code released under the [MIT](LICENSE.txt) license.
+Copyright 2022 [tonyruizo](https://githhub.com/tonyruizo). Code released under the [MIT](LICENSE.txt) license.
