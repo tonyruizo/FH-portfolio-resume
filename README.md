@@ -1,6 +1,7 @@
 # Resume Portfolio
 
 A Simple resume portfolio to showcase about, experience, education and contact section.
+
 Approved by client to post code public.
 
 ## Live Site
@@ -19,4 +20,4 @@ Approved by client to post code public.
 
 ## Copyright and License
 
-Copyright 2022 [tonyruizo](https://githhub.com/tonyruizo). Code released under the [MIT](LICENSE.txt) license.
+Copyright 2022 [tonyruizo](https://gitlab.com/tonyruizo). Code released under the [MIT](LICENSE.txt) license.
