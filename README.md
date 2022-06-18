@@ -1,11 +1,11 @@
-
 # Resume Portfolio
 
 A Simple resume portfolio to showcase about, experience, education and contact section.
+Approved by client to post code public.
 
-## Demo
+## Live Site
 
-[Live Site](https://www.florangelhilton.com)
+[florangelhilton.com](https://www.florangelhilton.com)
 
 ## Authors
 
