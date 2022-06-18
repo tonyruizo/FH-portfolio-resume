@@ -19,4 +19,4 @@ Approved by client to post code public.
 
 ## Copyright and License
 
-Copyright 2022 tonyruizo. Code released under the [MIT](LICENSE.txt) license.
+Copyright 2022 [tonyruizo](https://githhub.com/tonyruizo). Code released under the [MIT](LICENSE.txt) license.
